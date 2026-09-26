@@ -8,15 +8,24 @@
  * ------------------------------------------------------------
  */
 {
-    "sections" :{
-        "main" :{
-            "type" : "header",
-            "settings": {}
-        },
-        "hero-banner":{
-            "type": "hero-banner",
-            "settings" : {}
-        }
+  "sections": {
+    "main": {
+      "type": "header",
+      "settings": {}
     },
-    "order":["main","hero-banner"]
+    "hero_banner_HfVjxJ": {
+      "type": "hero-banner",
+      "name": "Hero banner",
+      "settings": {
+        "banner": "shopify://shop_images/theme_cover_image.jpg",
+        "heading_text": "This is your awesome heading",
+        "description_text": "This is your awesome explainer text.",
+        "full_width_section": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_banner_HfVjxJ"
+  ]
 }
